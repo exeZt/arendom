@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>main_window[sys.css]</title>
+	<link rel="stylesheet" href="sys.css">
+	<style>
+		body {
+		 	background-color: rgb(255, 255, 255); 
+		}
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="scripts/to_top.js"></script>
+</head>
+
+<body>
+
+	<!-- upper menu [[dash]] -->
+	<div id="menu8">
+		<ul>
+			<img src="images/page/icon.png">
+			<li><a href="#">Домой</a></li>
+			<li><a href="#">О компании</a></li>
+			<li><a href="#">Ссылки</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</div>
+
+	<!-- main grid -->
+    <div id="wrapper"> 
+		<div id="header">
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+				  	<div class="numbertext">1 / 3</div>
+				  	<img src="images/page/banner_1.png" style="width:100%">
+				</div>
+				<div class="mySlides fade">
+				  	<div class="numbertext">2 / 3</div>
+				  	<img src="images/page/banner_2.png" style="width:100%">
+				</div>
+				<div class="mySlides fade">
+				  	<div class="numbertext">3 / 3</div>
+				  	<img src="images/page/banner_3.png" style="width:100%">
+				</div>
+			  <br>
+			</div>
+		</div>
+
+		<script> var slideIndex = 0; showSlides();
+			function showSlides() {	var i;	var slides = document.getElementsByClassName("mySlides");
+			for (i = 0; i < slides.length; i++) {slides[i].style.display = "none"; 		} slideIndex++;
+			if (slideIndex > slides.length) {slideIndex = 1} 	slides[slideIndex-1].style.display = "block";
+			setTimeout(showSlides, 2000); /* 2000 (2sec to change img) */	}</script>
+
+		<div id="left">
+			<!-- left part menu #1 -->
+			<p id="split">Фильтры</p>
+			<div id="menu4">
+				<ul>
+					<li><a href="">Цена сначала больше</a></li>
+					<li><a href="">Цена сначала меньше</a></li>
+					<li><a href="">Комнаты сначала больше</a></li>
+					<li><a href="">Комнаты сначала меньше</a></li>
+				</ul>
+			</div>
+			
+			<!-- splitter -->
+			<p id="split">Города</p>
+
+			<!-- categories menu part #2 -->
+			<div id="cat_1">
+				<ul>
+					<li><a href="">Саратов</a></li>
+					<li><a href="">Москва и обл.</a></li>
+					<li><a href="">Санкт-Петербург</a></li>
+					<li><a href="">Пермь</a></li>
+					<li><a href="">Самара</a></li>
+				</ul>
+			</div>
+		<!-- end. -->			
+		</div>
+		<div id="content">
+			<!-- items -->
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_1"></div>
+					<p id="txt_items">68м²,2к, 35'000 руб/мес</p>
+					</div>
+					
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_2"></div>
+						<p id="txt_items">41м² ,2к,39'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_3"></div>
+					<p id="txt_items">42м²,2к, 30'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_4"></div>
+					<p id="txt_items">54м²,2к, 33'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_5"></div>
+					<p id="txt_items">60м²,2к, 35'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_6"></div>
+					<p id="txt_items">48м²,2к, 39'500 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+
+
+
+			<p>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_7"></div>
+					<p id="txt_items">48м²,2к, 30'000 руб/мес</p>
+					</div>
+					
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_8"></div>
+						<p id="txt_items">70м² ,3к,49'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_9"></div>
+					<p id="txt_items">64м²,2к, 41'500 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_10"></div>
+					<p id="txt_items">44м²,2к, 34'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_11"></div>
+					<p id="txt_items">60м²,2к, 35'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_12"></div>
+					<p id="txt_items">58м²,2к, 39'500 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+		</p>
+
+
+
+		<p>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_13"></div>
+					<p id="txt_items">78м²,2к, 50'000 руб/мес</p>
+					</div>
+					
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_14"></div>
+						<p id="txt_items">41м² ,2к,33'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_15"></div>
+					<p id="txt_items">42м²,2к, 27'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_16"></div>
+					<p id="txt_items">56м²,2к, 32'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_17"></div>
+					<p id="txt_items">64м²,2к, 37'000 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="item">
+				<div id="itembutton">
+					<div id="itpicture">
+						<div id="iitem_18"></div>
+					<p id="txt_items">51м²,2к, 33'500 руб/мес</p>
+					</div>
+					<ul>
+						<li><a href=""> Открыть </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</p>
+		</div>
+		
+		<!-- end.. -->
+		<div id="right">
+			right
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+	<!-- lower grid -->
+    <div id="footer">
+		<!-- <img src="images/page/footer.png" alt="footer" margin-bottom= "0px" align="bottom"> -->
+        <div id="centered">
+			<ul>
+            	<li><a href="">Scelerisque</a></li>
+            	<li><a href="">Rhoncus</a></li>
+            	<li><a href="">Proin</a></li>
+            	<li><a href="">Tristique</a></li>
+            	<li><a href="">Faucibus</a></li>
+        	</ul>
+		</div>	
+    </div>
+	<!-- BUTTON #1 [ to-top ] -->
+	<div  id="toTop">^</div>
+</body>
+</html>
